@@ -4,11 +4,11 @@ Content-Type: application/json
     
 {    
     "content": "esto es una nueva nota",
-    "important" : true // If you dont send amything default value is false
+    "important" : true 
 }
+    // If you dont send amything default value is false
 
 ### 
-//Whit error response
 POST http://localhost:3001/api/notes
 Content-Type: application/json 
     
@@ -16,3 +16,4 @@ Content-Type: application/json
 
 }
 
+//Whit error response

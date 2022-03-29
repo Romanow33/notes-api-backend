@@ -1,0 +1,11 @@
+//Whit correct response
+PUT http://localhost:3001/api/notes/624384058044f08391ea5dfe
+Content-Type: application/json 
+    
+{    
+    "content": "esto es una nota editada por segunda vez",
+    "important" : true 
+}
+    // If you dont send amything default value is false
+
+
